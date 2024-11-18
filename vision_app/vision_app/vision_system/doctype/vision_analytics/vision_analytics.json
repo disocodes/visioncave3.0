@@ -1,0 +1,51 @@
+{
+  "actions": [],
+  "creation": "2023-12-20 10:00:00.000000",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "field_order": [
+    "total_detections",
+    "accuracy",
+    "processing_time"
+  ],
+  "fields": [
+    {
+      "fieldname": "total_detections",
+      "fieldtype": "Int",
+      "label": "Total Detections"
+    },
+    {
+      "fieldname": "accuracy",
+      "fieldtype": "Float",
+      "label": "Accuracy"
+    },
+    {
+      "fieldname": "processing_time",
+      "fieldtype": "Float",
+      "label": "Processing Time (ms)"
+    }
+  ],
+  "index_web_pages_for_search": 1,
+  "links": [],
+  "modified": "2023-12-20 10:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "Vision System",
+  "name": "Vision Analytics",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "print": 1,
+      "read": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "track_changes": 1
+}

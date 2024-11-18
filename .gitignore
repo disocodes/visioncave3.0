@@ -1,0 +1,12 @@
+*.pyc
+*.py~
+*.swp
+*.egg-info
+*.log
+.DS_Store
+.bench
+.env
+env/
+site/
+venv/
+node_modules/

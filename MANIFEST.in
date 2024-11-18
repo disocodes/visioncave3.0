@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include vision_app *.css
+recursive-include vision_app *.csv
+recursive-include vision_app *.html
+recursive-include vision_app *.ico
+recursive-include vision_app *.js
+recursive-include vision_app *.json
+recursive-include vision_app *.md
+recursive-include vision_app *.png
+recursive-include vision_app *.py
+recursive-include vision_app *.svg
+recursive-include vision_app *.txt
+recursive-exclude vision_app *.pyc
